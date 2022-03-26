@@ -1,0 +1,364 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu img{
+    width: 40px;
+    transition: 1s;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 7px 6px rgb(182, 173, 167);
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 100vh;
+    align-items: center;
+    transition: 1s;
+    z-index: 30009;
+}
+
+
+
+.tir {
+    transition: 1s;
+}
+.tir :hover {
+    background: chartreuse;
+    transform: rotate(35deg);
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+    display: block;
+}
+.tar {
+    transition: 1s;
+}
+.tar :hover {
+    background-color: rgb(255, 166, 0);
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+    display: block;
+}
+.tor {
+    transition: 1s;
+}
+.tor :hover {
+    transform: scale(1.3) ;
+    transition: 1s;
+    display: block;
+}
+.tur {
+    transition: 1s;
+}
+.tur :hover {
+    background-color: aqua;
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+    display: block;
+}
+.ter {
+    transition: 1s;
+}
+.ter :hover {
+    transform: rotateY(45deg) ;
+    transition: 1s;
+    display: block;
+}
+
+
+
+.face :hover {
+    background-color: rgb(0, 81, 255);
+    border-bottom-right-radius: 10px;
+    transition: 1s;
+    display: block;
+}
+
+.vk :hover{
+    transition: 1s;
+    border-radius: 15px;
+
+}
+
+.tt :hover{
+transition: 1s;
+animation: traska 1s  0s ;
+
+}
+@keyframes traska{
+    0%{
+        transform: rotate(0);
+    }
+    33%{
+        transform: rotate(45deg);
+    }
+    66%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+.inst :hover{
+    transition: 1s;
+    animation: foto 1s  0s ;
+    
+    }
+    @keyframes foto{
+        0%{
+            background-color: black;
+        }
+        10%{
+            background-color: rgb(251, 255, 0);
+            border-bottom-right-radius: 10px;
+        }
+        20%{
+           background-color: black;
+        }
+        30%{
+            background-color: rgb(251, 255, 0);
+            border-bottom-right-radius: 10px;
+        }
+        40%{
+            background-color: black;
+        }
+        50%{
+            background-color: rgb(251, 255, 0);
+            border-bottom-right-radius: 10px;
+        }
+        60%{
+            background-color: black;
+        }
+        70%{
+            background-color: rgb(251, 255, 0);
+            border-bottom-right-radius: 10px;
+        }
+        80%{
+           background-color: black;
+        }
+        90%{
+            background-color: rgb(251, 255, 0);
+            border-bottom-right-radius: 10px;
+        }
+        100%{
+            background-color: black;
+        }
+    }
+.nav{
+
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    transition: 1s;
+    
+}
+.logo{
+    text-align: center;
+}
+.menu-bottom img{
+    transition: 1s;
+}
+.menu-bottom{
+    position: fixed;
+    bottom:  0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 7px 6px rgb(182, 173, 167);
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    z-index: 999999999999999999999999999999999999999999999;
+    align-items: center;
+    transition: 1s;
+}
+.header{
+    padding-left: 100px;
+    display: flex;
+    height: 100vh;
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bac{
+    height: 50%;
+    width: 50%;
+}
+.b{
+background-color:rgba(34, 34, 180, 0.877) ;
+}
+.r{
+background-color: rgba(255, 0, 0, 0.89);
+}
+.l{
+background-color: rgba(0, 183, 255, 0.87);
+border-bottom-right-radius: 50px;
+}
+.y{
+background-color: rgba(255, 255, 0, 0.938);
+}
+
+.st{
+    font-weight: bold;
+}
+.h1{
+    font-size: 200px;
+    font-weight: 200;
+    text-align: right;
+}
+.header-right{
+    flex-direction:column ;
+    display: flex;
+    justify-content: space-between;
+}
+.p{
+    display: flex;
+    flex-wrap: wrap;
+}
+.frf{
+    margin: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+    padding: 5px;
+    background-color: aliceblue;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+.about{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-left: 100px;
+}
+.left-ab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-title{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-left: 35px;
+}
+.about-text{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding-left: 35px;
+}
+.about-cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.about-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 64);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -9;
+}
+.bg-text{
+   color: rgba(119, 108, 108, 0.397); 
+   font-size: 150px;
+   padding: 40px;
+   padding-top:0 ;
+   font-weight: bold;
+}
+.right-ab{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
+
+.kub{
+border-radius:0 26px ;
+box-shadow: 5px 6px 1px black;
+}
+.a1{
+width: 215px;
+height: 222px;
+background-color: rgb(115, 179, 235);
+align-self: flex-end;
+}
+.b2{
+width: 174px;
+height: 166px;
+background-color: rgb(255, 187, 103);
+align-self: center;
+}
+.c3{
+width: 269px;
+height: 174px;
+background-color: rgb(195, 0, 255);
+align-self: flex-start;
+}
+
+
+.advantages{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-left: 100px;
+}
+.ad-cont{
+    flex-wrap: wrap-reverse;
+}
+.ad-title{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    padding-left: 35px;
+}
+.ad-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 196, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -9;
+}
+.ad-ter{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    padding-left:300px ;
+    font-size: 50px;
+
+
+}
+.ad-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -2;
+    width: 1850px;
+}
